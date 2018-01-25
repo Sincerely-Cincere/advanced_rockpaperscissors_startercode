@@ -28,3 +28,8 @@
 
 // DOCUMENT READY FUNCTION
 
+ $(document).ready(function(){
+         alert()
+     $("#submit-name").click(function() { var a = $("#name").val();
+             $("#greeting").text(a); });
+   })
